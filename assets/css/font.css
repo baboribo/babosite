@@ -1,0 +1,71 @@
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard JP.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+
+@font-face {
+	font-family: 'Pretendard JP Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('./woff2/PretendardJPVariable.woff2') format('woff2-variations');
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'omyu_pretty', sans-serif;
+}
+
+h6, p, a, span {
+    font-family: 'Pretendard JP Variable', sans-serif;
+}
+
+h1 {
+    font-size: 34px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+h3 {
+    font-size: 28px;
+    margin-top: 8px;
+}
+h4 {
+    font-size: 26px;
+    margin-top: 8px;
+}
+h5 {
+    font-size: 20px;
+    margin-top: 8px;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: -1.5;
+}
+p {
+    font-size: 16px;
+    line-height: -1.5;
+}
+a {
+    font-size: 16px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+span {
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}

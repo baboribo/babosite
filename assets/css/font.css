@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
     font-family: 'omyu_pretty', sans-serif;
 }
 
-h5, h6, p, a, span {
+h5, h6, p, a, span, li {
     font-family: 'Pretendard JP Variable', sans-serif;
 }
 
@@ -60,7 +60,7 @@ p {
 a {
     font-size: 16px;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 span {
     font-size: 14px;
@@ -68,4 +68,9 @@ span {
 }
 a:hover {
     text-decoration: underline;
+}
+
+li {
+    font-size: 16px;
+    color: #E4E3ED;
 }

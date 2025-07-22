@@ -22,42 +22,49 @@ http://scripts.sil.org/OFL
     font-style: normal;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
     font-family: 'omyu_pretty', sans-serif;
 }
 
-h6, p, a, span {
+h5, h6, p, a, span {
     font-family: 'Pretendard JP Variable', sans-serif;
 }
 
 h1 {
     font-size: 46px;
+    color: #fff;
 }
 h2 {
     font-size: 30px;
+    color: #fff;
 }
 h3 {
     font-size: 26px;
+    color: #fff;
 }
 h4 {
     font-size: 21px;
+    color: #fff;
 }
 h5 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: -1.5;
+    color: #fff;
 }
 p {
     font-size: 16px;
     line-height: -1.5;
+    color: #E4E3ED;
 }
 a {
     font-size: 16px;
-    color: #1a73e8;
+    color: #fff;
     text-decoration: none;
 }
 span {
     font-size: 14px;
+    color: #B6B5C1;
 }
 a:hover {
     text-decoration: underline;

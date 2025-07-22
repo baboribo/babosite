@@ -1,4 +1,29 @@
 <script setup>
+  useSeoMeta({
+    title: '바보리보',
+    description: '바보리보의 사이트입니다!',
+    ogTitle: '바보리보',
+    ogDescription: '바보리보의 사이트입니다!',
+    ogUrl: 'https://baboribo.yume.place',
+    ogImage: '/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png',
+    twitterTitle: '바보리보',
+    twitterDescription: '바보리보의 사이트입니다!',
+    twitterCard: 'summary',
+    twitterImage: '/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png'
+  })
+
+  useHead({
+    htmlAttrs: {
+      lang: 'ko-KR'
+    },
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png'
+      }
+    ]
+  })
   import { GitHubIcon, RobloxIcon } from 'vue3-simple-icons'
   import './assets/css/main.css'
   import './assets/css/font.css'

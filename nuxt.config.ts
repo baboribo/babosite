@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'unplugin-icons/nuxt',
     '@nuxt/icon',
     '@nuxtjs/color-mode',
+    '@pinia/nuxt',
   ],
   css: ["~/assets/css/font.css", "~/assets/css/main.css"],
 })

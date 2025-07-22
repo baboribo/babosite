@@ -74,3 +74,32 @@ li {
     font-size: 16px;
     color: #E4E3ED;
 }
+
+.group-h1 {
+  color: #fff;
+  margin-top: 16px;
+}
+.group-h2 {
+  color: #fff;
+  margin-top: 16px;
+}
+.group-h3 {
+  color: #fff;
+  margin-top: 16px;
+}
+.group-h4 {
+  color: #fff;
+  margin-top: 18px;
+}
+.group-h5 {
+  color: #fff;
+  margin-top: 20px;
+}
+.group-p {
+    color: #E4E3ED;
+    margin-top: 20px;
+}
+.group-span {
+    color: #B6B5C1;
+    margin-top: 20px;
+}

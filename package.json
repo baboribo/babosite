@@ -18,6 +18,7 @@
     "vue3-simple-icons": "^15.6.0"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^3.5.2",
     "unplugin-icons": "^22.1.0"
   }
 }

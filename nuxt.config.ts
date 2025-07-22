@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'unplugin-icons/nuxt', '@nuxt/icon'],
-  css: ['~/assets/css/font.css', '~/assets/css/main.css'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'unplugin-icons/nuxt',
+    '@nuxt/icon',
+    '@nuxtjs/color-mode',
+  ],
+  css: ["~/assets/css/font.css", "~/assets/css/main.css"],
 })

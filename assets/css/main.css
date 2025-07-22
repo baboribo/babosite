@@ -7,7 +7,8 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  border: solid 1px #ffffff12;
+  border: solid 1px #ffffff26;
+  background: #100E14;
 }
 
 .flag {

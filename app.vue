@@ -1,10 +1,10 @@
 <script setup>
-  import { GitHubIcon } from 'vue3-simple-icons'
+  import { GitHubIcon, RobloxIcon } from 'vue3-simple-icons'
   import './assets/css/main.css'
   import './assets/css/font.css'
 </script>
 <template>
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-6xl mx-auto">
     <div>
       <div class="flex items-center gap-4">
         <img class="avatar" src="./public/d80eac4321e1b29abfbef07fa38d660c.jpg" alt="Avatar"/>
@@ -60,13 +60,22 @@
     <h3>자기소개</h3>
     <p>안녕하세요, 저는 바보리보입니다. Vue.js를 배우고 있습니다.</p>
     <h3>링크</h3>
-    <ul>
+    <ul class="flex flex-col-4 gap-4 w-full mt-2">
       <li>
         <a class="link-card-ui" href="https://github.com/baboribo" target="_blank" rel="noopener noreferrer">
           <GitHubIcon size="28" />
           <div>
             <h4>GitHub 프로필</h4>
             <p>바보리보의 GitHub 프로필을 확인하세요.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="link-card-ui" href="https://github.com/baboribo" target="_blank" rel="noopener noreferrer">
+          <RobloxIcon size="28" />
+          <div>
+            <h4>Roblox 프로필</h4>
+            <p>바보리보의 Roblox 프로필을 확인하세요.</p>
           </div>
         </a>
       </li>

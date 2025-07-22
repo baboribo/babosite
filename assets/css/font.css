@@ -31,25 +31,21 @@ h6, p, a, span {
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 46px;
 }
 h2 {
     font-size: 30px;
     margin-top: 8px;
 }
 h3 {
-    font-size: 28px;
-    margin-top: 8px;
-}
-h4 {
     font-size: 26px;
     margin-top: 8px;
 }
-h5 {
-    font-size: 20px;
+h4 {
+    font-size: 21px;
     margin-top: 8px;
 }
-h6 {
+h5 {
     font-size: 16px;
     font-weight: 600;
     line-height: -1.5;

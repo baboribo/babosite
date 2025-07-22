@@ -23,4 +23,23 @@ body {
   gap: 18px;
   background-color: #24212B;
   border-radius: 10px;
+  width: 100%;
+  transition: 0.2s ease-out;
+}
+.link-card-ui:hover {
+  background-color: #2A2731;
+  transition: 0.01s ease-in;
+}
+
+.tag {
+  padding: 4px 10px;
+  background-color: #24212B;
+  border-radius: 8px;
+  color: #E4E3ED;
+  font-size: 14px;
+}
+
+.group-h3 {
+  color: #fff;
+  margin-top: 14px;
 }

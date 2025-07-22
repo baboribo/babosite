@@ -71,7 +71,7 @@
         </a>
       </li>
       <li>
-        <a class="link-card-ui" href="https://github.com/baboribo" target="_blank" rel="noopener noreferrer">
+        <a class="link-card-ui" href="https://www.roblox.com/users/244515714/profile" target="_blank" rel="noopener noreferrer">
           <RobloxIcon size="28" />
           <div>
             <h4>Roblox 프로필</h4>

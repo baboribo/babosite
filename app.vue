@@ -7,7 +7,7 @@
   <div class="max-w-6xl mx-auto">
     <div>
       <div class="flex items-center gap-4">
-        <img class="avatar" src="./public/d80eac4321e1b29abfbef07fa38d660c.jpg" alt="Avatar"/>
+        <img class="avatar" src="./public/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png" alt="Avatar"/>
         <div class="flex flex-col pb-1">
           <div class="flex items-center gap-2">
             <h2>바보리보</h2>

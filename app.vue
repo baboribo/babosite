@@ -26,9 +26,10 @@
   })
   
   import { ref } from 'vue'
-  import { GitHubIcon, RobloxIcon } from 'vue3-simple-icons'
   import './assets/css/main.css'
   import './assets/css/font.css'
+  import { langname } from './assets/info/langname.ts'
+  import { links } from './assets/info/links.ts'
   import modal from './components/modal.vue'
 
   const isModalOpen = ref(false)
@@ -58,25 +59,11 @@
           <div class="p-1 flex flex-col"> <!-- 언어별 표시이름 그룹 -->
             <h4 class="group-h4">언어별 표시이름</h4>
             <ul class="flex mt-1 gap-8">
-              <li class="flex items-center gap-2.5">
-                <img class="flag" src="./assets/flags/UI-Flags-kr-South Korea-4x3.svg" alt="Korea(South) Flag" />
+              <li v-for="(langn, i) in langname" :key="i" class="flex items-center gap-2.5">
+                <img class="flag" :src="langn.icon" :alt="`${langn.lang} Flag`" />
                 <div class="flex flex-col gap-0">
-                  <span>한국어</span>
-                  <h5>바보리보</h5>
-                </div>
-              </li>
-              <li class="flex items-center gap-2.5">
-                <img class="flag" src="./assets/flags/UI-Flags-jp-Japan-4x3.svg" alt="Japan Flag" />
-                <div class="flex flex-col gap-0">
-                  <span>일본어</span>
-                  <h5>バボリボ</h5>
-                </div>
-              </li>
-              <li class="flex items-center gap-2.5">
-                <img class="flag" src="./assets/flags/UI-Flags-gb-United Kingdom-4x3.svg" alt="United Kingdom Flag" />
-                <div class="flex flex-col gap-0">
-                  <span>영어</span>
-                  <h5>baboribo</h5>
+                  <span>{{ langn.lang }}</span> <!-- 해당 국가 이름 -->
+                  <h5>{{ langn.name }}</h5> <!-- 그 국가에 맞는 이름 -->
                 </div>
               </li>
             </ul>
@@ -102,13 +89,13 @@
     <section>
       <h3 class="group-h3">링크</h3>
       <ul class="flex flex-col gap-2 w-full mt-2">
-        <li>
-          <a class="link-card-ui" href="https://github.com/baboribo" target="_blank" rel="noopener noreferrer">
+        <li v-for="(link, i) in links" :key="i">
+          <a class="link-card-ui" :href="link.url" target="_blank" rel="noopener noreferrer">
             <div class="link-card-content">
-              <GitHubIcon size="24" />
+              <component :is="link.icon" size="24" />
               <div class="flex items-center gap-4">
-                <h4>GitHub 프로필</h4>
-                <p>바보리보의 GitHub 프로필을 확인하세요.</p>
+                <h4>{{ link.name }}</h4>
+                <p>{{ link.description }}</p>
               </div>
             </div>
             <Icon name="mingcute:arrow-right-up-line" style="color: #E4E3ED" size="24" />

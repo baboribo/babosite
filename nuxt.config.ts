@@ -9,5 +9,5 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@pinia/nuxt',
   ],
-  css: ["~/assets/css/font.css", "~/assets/css/main.css"],
+  css: ['~/assets/css/font.css', '~/assets/css/main.css'],
 })

@@ -58,7 +58,6 @@ p {
     color: #E4E3ED;
 }
 a {
-    font-size: 16px;
     color: #fff;
     text-decoration: none !important;
 }
@@ -102,4 +101,14 @@ li {
 .group-span {
     color: #B6B5C1;
     margin-top: 20px;
+}
+.sm-a {
+    font-size: 14px important;
+    color: #fff;
+    text-decoration: none !important;
+}
+.md-a {
+    font-size: 16px important;
+    color: #fff;
+    text-decoration: none !important;
 }

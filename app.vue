@@ -104,5 +104,9 @@
         </li>
       </ul>
     </section>
+    <footer v-for="(profile) in profileme" :key="profile" class="flex flex-col mt-20">
+      <span class="text-center text-sm text-gray-500">© 2025 {{ profile.displayname }}, All rights reserved.</span>
+      <span class="text-center text-sm text-gray-500">Designed & made with ❤️ using <a href="https://nuxt.com" target="_blank" rel="noopener noreferrer" class="sm-a">Nuxt.js</a> by <a class="sm-a" href="https://x.com/baboribu">{{ profile.displayname }}</a>.</span>
+    </footer>
   </div>
 </template>

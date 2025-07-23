@@ -3,6 +3,7 @@
     name: "modal",
     emits: ["close"],
   }
+  import { profileme } from '../assets/info/my-profile.ts'
 </script>
 
 <template>
@@ -17,9 +18,9 @@
             </div>
           </header>
           <img class="big-avatar-image" src="/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png" alt="Avatar Image" />
-          <footer class="flex gap-1 pt-5 items-center place-content-center">
+          <footer v-for="(profile) in profileme" :key="profile" class="flex gap-1 pt-5 items-center place-content-center">
             <p>출처:</p>
-            <a>알 수 없음</a>
+            <a>{{ profile.avtrsource }}</a>
           </footer>
         </div>
       </div>

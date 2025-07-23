@@ -59,21 +59,21 @@
             <h4 class="group-h4">언어별 표시이름</h4>
             <ul class="flex mt-1 gap-8">
               <li class="flex items-center gap-2.5">
-                <img class="flag" src="./public/flags/UI-Flags-kr-South Korea-4x3.svg" alt="Korea(South) Flag" />
+                <img class="flag" src="./assets/flags/UI-Flags-kr-South Korea-4x3.svg" alt="Korea(South) Flag" />
                 <div class="flex flex-col gap-0">
                   <span>한국어</span>
                   <h5>바보리보</h5>
                 </div>
               </li>
               <li class="flex items-center gap-2.5">
-                <img class="flag" src="./public/flags/UI-Flags-jp-Japan-4x3.svg" alt="Japan Flag" />
+                <img class="flag" src="./assets/flags/UI-Flags-jp-Japan-4x3.svg" alt="Japan Flag" />
                 <div class="flex flex-col gap-0">
                   <span>일본어</span>
                   <h5>バボリボ</h5>
                 </div>
               </li>
               <li class="flex items-center gap-2.5">
-                <img class="flag" src="./public/flags/UI-Flags-gb-United Kingdom-4x3.svg" alt="United Kingdom Flag" />
+                <img class="flag" src="./assets/flags/UI-Flags-gb-United Kingdom-4x3.svg" alt="United Kingdom Flag" />
                 <div class="flex flex-col gap-0">
                   <span>영어</span>
                   <h5>baboribo</h5>
@@ -109,18 +109,6 @@
               <div class="flex items-center gap-4">
                 <h4>GitHub 프로필</h4>
                 <p>바보리보의 GitHub 프로필을 확인하세요.</p>
-              </div>
-            </div>
-            <Icon name="mingcute:arrow-right-up-line" style="color: #E4E3ED" size="24" />
-          </a>
-        </li>
-        <li>
-          <a class="link-card-ui" href="https://www.roblox.com/users/244515714/profile" target="_blank" rel="noopener noreferrer">
-            <div class="link-card-content">
-              <RobloxIcon size="24" />
-              <div class="flex items-center gap-4">
-                <h4>Roblox 프로필</h4>
-                <p>저의 Roblox 프로필이에요.</p>
               </div>
             </div>
             <Icon name="mingcute:arrow-right-up-line" style="color: #E4E3ED" size="24" />

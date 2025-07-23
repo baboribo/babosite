@@ -24,19 +24,24 @@
       }
     ]
   })
+  
   import { ref } from 'vue'
   import { GitHubIcon, RobloxIcon } from 'vue3-simple-icons'
   import './assets/css/main.css'
   import './assets/css/font.css'
   import modal from './components/modal.vue'
+
+  const isModalOpen = ref(false)
 </script>
 <template>
-  <!-- <modal /> -->
-  <div class="max-w-6xl mx-auto">
+  <modal v-if="isModalOpen" @close="isModalOpen = false" />
+  <div id="app" class="max-w-6xl mx-auto">
     <header class="flex col-span-2 w-full"> <!-- 프로필 그룹((좌)프로필 정보, (우)자기소개, 관심사, 등) -->
       <div class="flex flex-col w-full"> <!-- 프로필과 언어별 표시이름이 있는 곳 -->
         <section class="flex items-center gap-4"> <!-- 프로필 정보 -->
-          <img class="avatar" src="./public/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png" alt="Avatar"/>
+          <button @click="isModalOpen = true">
+            <img class="avatar" src="./public/d80eac4321e1b29abfbef07fa38d660c-removebg-preview.png" alt="Avatar"/>
+          </button>
           <div class="flex flex-col pb-1 gap-0.5"> <!-- 프로필 정보 내부 -->
             <div class="flex items-center gap-2">
               <h2>바보리보</h2>
